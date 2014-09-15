@@ -129,9 +129,9 @@ module Dwolla
 
         def self.checkout_url
             if Dwolla::sandbox
-                return 'https://uat.dwolla.com/payment/request'
+                return 'https://uat.dwolla.com/payment/checkout/'
             else
-                return 'https://www.dwolla.com/payment/request'
+                return 'https://www.dwolla.com/payment/checkout/'
             end
         end
 
